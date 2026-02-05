@@ -1,5 +1,41 @@
 # Store Sales Performance & Profitability Analysis (Power BI)
 
+Power BI sales analytics solution built using Star Schema modeling and advanced DAX for dynamic period comparison.
+
+## 📊 Report Preview
+
+### Executive Overview
+High-level KPI dashboard summarizing Net Sales, Profit, Quantity Sold, Total Orders, overall sales trends, and geographic performance.
+
+<img width="621" height="352" alt="Image" src="https://github.com/user-attachments/assets/efea51f1-0660-439c-8811-d4e7ff8ff56c" />
+
+---
+
+### Product Performance
+Top and Bottom 5 products ranked by Sales, Profit, and Quantity Sold to identify revenue drivers and underperforming items.
+
+<img width="608" height="340" alt="Product Performance" src="https://github.com/user-attachments/assets/f2c2a889-a1be-4ce1-a918-a63128549a5b" />
+
+---
+
+### Time Trend Analysis
+Interactive daily, monthly, quarterly, and annual sales trend analysis with drill-down capabilities.
+
+<img width="604" height="340" alt="Time Trend Analysis" src="https://github.com/user-attachments/assets/60a2ae16-2a82-4b2d-8743-f9e937a4b281" />
+
+---
+
+### Period Comparison
+Dynamic performance comparison between two selected time periods powered by dual date-table architecture.
+
+<img width="604" height="338" alt="Period Comparison" src="https://github.com/user-attachments/assets/ed9afaa2-36b2-4a5d-8c11-9b4c2a3208c1" />
+
+---
+
+### Order-Level Analysis
+Detailed transactional view displaying Sales, Profit, Discount, and Net Sales with multi-dimensional filtering.
+
+<img width="602" height="341" alt="Order Level Analysis" src="https://github.com/user-attachments/assets/f359c9e8-ede9-44b0-a17a-42f0f22c5864" />
 
 
 ## Problem Statement
@@ -31,6 +67,8 @@ The model consists of:
 - Dimension Tables (Product, Customer, Promotion, etc.)
 - Two separate Date Tables for advanced time intelligence
 - Dedicated Measures Table for KPI calculations
+
+<img width="1335" height="655" alt="Image" src="https://github.com/user-attachments/assets/2582299e-9435-437c-94df-b9126feaaa9e" />
 
 ### Date Tables Created
 
@@ -159,19 +197,6 @@ These measures leverage:
 
 ---
 
-# Report Snapshot
-
-<img width="610" height="387" alt="Image" src="https://github.com/user-attachments/assets/76e9d021-f8cf-4c30-a6ef-62ba35970f39" />
-
-<img width="608" height="340" alt="Image" src="https://github.com/user-attachments/assets/f2c2a889-a1be-4ce1-a918-a63128549a5b" />
-
-<img width="604" height="340" alt="Image" src="https://github.com/user-attachments/assets/60a2ae16-2a82-4b2d-8743-f9e937a4b281" />
-
-<img width="604" height="338" alt="Image" src="https://github.com/user-attachments/assets/ed9afaa2-36b2-4a5d-8c11-9b4c2a3208c1" />
-
-<img width="602" height="341" alt="Image" src="https://github.com/user-attachments/assets/f359c9e8-ede9-44b0-a17a-42f0f22c5864" />
-
----
 
 # Insights
 
